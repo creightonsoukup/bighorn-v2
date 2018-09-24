@@ -80,6 +80,47 @@ var Header = function Header(props) {
 
 /***/ }),
 
+/***/ "./components/image.js":
+/*!*****************************!*\
+  !*** ./components/image.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+var Image = function Image(_ref) {
+  var border = _ref.border,
+      image = _ref.image,
+      link = _ref.link;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-1704751525" + " " + "".concat(border, " image-container")
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/".concat(link)
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "./static/".concat(image),
+    alt: "my image",
+    className: "jsx-1704751525"
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "1704751525",
+    css: "img.jsx-1704751525{height:auto;overflow:hidden;width:90vw;max-width:1200px;display:block;margin:auto;}.padding.jsx-1704751525{padding:5vw;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy91c2VyL2NvZGUvYmlnaG9ybi9iaWdob3JuLXYyL2NvbXBvbmVudHMvaW1hZ2UuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBT2dCLEFBR29CLEFBVUMsWUFUSSxBQVVsQixnQkFUYSxXQUNNLGlCQUNILGNBQ0YsWUFFZCIsImZpbGUiOiIvVXNlcnMvdXNlci9jb2RlL2JpZ2hvcm4vYmlnaG9ybi12Mi9jb21wb25lbnRzL2ltYWdlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xuXG5jb25zdCBJbWFnZSA9ICh7Ym9yZGVyLCBpbWFnZSwgbGlua30pID0+IChcbiAgPGRpdiBjbGFzc05hbWU9e2Ake2JvcmRlcn0gaW1hZ2UtY29udGFpbmVyYH0+XG4gICAgPExpbmsgaHJlZj17YC8ke2xpbmt9YH0+XG4gICAgICA8aW1nICBzcmM9e2AuL3N0YXRpYy8ke2ltYWdlfWB9IGFsdD1cIm15IGltYWdlXCIgLz5cbiAgICA8L0xpbms+XG4gICAgPHN0eWxlIGpzeD57YFxuICAgICAgaW1nIHtcbiAgICAgICAgaGVpZ2h0OmF1dG87XG4gICAgICAgIG92ZXJmbG93OiBoaWRkZW47XG4gICAgICAgIHdpZHRoOiA5MHZ3O1xuICAgICAgICBtYXgtd2lkdGg6IDEyMDBweDtcbiAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgIG1hcmdpbjogYXV0bztcblxuICAgICAgfVxuXG4gICAgICAucGFkZGluZyB7XG4gICAgICAgIHBhZGRpbmc6IDV2dztcbiAgICAgIH1cblxuICAgIGB9PC9zdHlsZT5cbiAgPC9kaXY+XG4pXG5cbmV4cG9ydCBkZWZhdWx0IEltYWdlXG4iXX0= */\n/*@ sourceURL=/Users/user/code/bighorn/bighorn-v2/components/image.js */"
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Image);
+
+/***/ }),
+
 /***/ "./components/layout.js":
 /*!******************************!*\
   !*** ./components/layout.js ***!
@@ -11491,6 +11532,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_content_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../static/content.js */ "./static/content.js");
 /* harmony import */ var _static_content_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_static_content_js__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_textbox_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/textbox.js */ "./components/textbox.js");
+/* harmony import */ var _components_image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/image */ "./components/image.js");
+
 
 
 
@@ -11500,6 +11543,10 @@ __webpack_require__.r(__webpack_exports__);
     title: 'Bighorn Crossing Home'
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_textbox_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
     content: _static_content_js__WEBPACK_IMPORTED_MODULE_2___default.a.homepage.textBlock1
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_image__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    border: "padding",
+    image: "townhome-hero.jpg",
+    link: "townhomes"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_textbox_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
     content: _static_content_js__WEBPACK_IMPORTED_MODULE_2___default.a.homepage.textBlock2
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_textbox_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
