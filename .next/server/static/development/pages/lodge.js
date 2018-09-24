@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -216,9 +216,9 @@ var Layout = function Layout(_ref) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
+/***/ "./pages/lodge.js":
 /*!************************!*\
-  !*** ./pages/index.js ***!
+  !*** ./pages/lodge.js ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -232,8 +232,8 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: 'Bighorn Crossing Home'
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Home"));
+    title: 'The Lodge'
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Lodge"));
 });
 
 /***/ }),
@@ -260,14 +260,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
-  !*** multi ./pages/index.js ***!
+  !*** multi ./pages/lodge.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! ./pages/lodge.js */"./pages/lodge.js");
 
 
 /***/ }),
@@ -317,4 +317,4 @@ module.exports = require("styled-jsx/style");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=lodge.js.map

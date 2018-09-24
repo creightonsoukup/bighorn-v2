@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/lodge.js"],{
 
 /***/ "./components/header.js":
 /*!******************************!*\
@@ -11441,9 +11441,9 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
+/***/ "./pages/lodge.js":
 /*!************************!*\
-  !*** ./pages/index.js ***!
+  !*** ./pages/lodge.js ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -11457,8 +11457,8 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: 'Bighorn Crossing Home'
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Home"));
+    title: 'The Lodge'
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Lodge"));
 });
     (function (Component, route) {
       if(!Component) return
@@ -11476,21 +11476,21 @@ __webpack_require__.r(__webpack_exports__);
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/lodge")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 3:
+/***/ 6:
 /*!******************************!*\
-  !*** multi ./pages/index.js ***!
+  !*** multi ./pages/lodge.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/', function() {
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
+__NEXT_REGISTER_PAGE('/lodge', function() {
+module.exports = __webpack_require__(/*! ./pages/lodge.js */"./pages/lodge.js");
 
 return { page: module.exports.default }});
 
@@ -11507,5 +11507,5 @@ module.exports = dll_d91687ee20e0bb0db31d;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]));;
-//# sourceMappingURL=index.js.map
+},[[6,"static/runtime/webpack.js","styles"]]]));;
+//# sourceMappingURL=lodge.js.map

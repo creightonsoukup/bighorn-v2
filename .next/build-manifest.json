@@ -1,5 +1,7 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/development/dll/dll_2a61e933f013da77efe3.js"
+  ],
   "pages": {
     "/_app": [
       "static/runtime/webpack.js",
@@ -11,10 +13,14 @@
     ],
     "/index": [
       "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
     "/": [
       "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
       "static/runtime/main.js"
     ]
   }
