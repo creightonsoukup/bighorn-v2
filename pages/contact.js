@@ -1,7 +1,7 @@
 import Layout from '../components/layout'
 
 export default () => (
-  <Layout title={'Bighorn Crossing Home'}>
-    <h1>Home</h1>
+  <Layout title={'Contact Us'}>
+    <h1>Contact</h1>
   </Layout>
 )
