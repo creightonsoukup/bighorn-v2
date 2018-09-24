@@ -4,7 +4,9 @@ import Textbox from '../components/textbox'
 
 export default () => (
   <Layout title={'Our Neighborhood'}>
-    <h1>Neighborhood</h1>
+    <div className='container'>
+      <h1 className='row'>Neighborhood</h1>
+    </div>
     <Textbox content={content.neighborhood.intro}/>
     <Textbox content={content.neighborhood.ski}/>
     <Textbox content={content.neighborhood.recreation}/>

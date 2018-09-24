@@ -4,7 +4,9 @@ import Textbox from '../components/textbox'
 
 export default () => (
   <Layout title={'Bighorn Crossing Apartment'}>
-    <h1>Apartments</h1>
+    <div className='container'>
+      <h1 className='row'>Apartments</h1>
+    </div>
     <Textbox content={content.apartments.textBlock1}/>
     <Textbox content={content.apartments.textBlock2}/>
 

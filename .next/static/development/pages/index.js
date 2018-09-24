@@ -109,8 +109,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var Layout = function Layout(_ref) {
   var children = _ref.children,
-      _ref$title = _ref.title,
-      title = _ref$title === void 0 ? 'Bighorn Crossing' : _ref$title;
+      title = _ref.title;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     charSet: "utf-8"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -11499,7 +11498,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: 'Bighorn Crossing Home'
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_textbox_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_textbox_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
     content: _static_content_js__WEBPACK_IMPORTED_MODULE_2___default.a.homepage.textBlock1
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_textbox_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
     content: _static_content_js__WEBPACK_IMPORTED_MODULE_2___default.a.homepage.textBlock2

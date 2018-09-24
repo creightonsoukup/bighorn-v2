@@ -4,7 +4,9 @@ import content from '../static/content'
 
 export default () => (
   <Layout title={'Bighorn Crossing Townhomes'}>
-    <h1>Townhomes</h1>
+    <div className='container'>
+      <h1 className='row'>Townhomes</h1>
+    </div>
     <Textbox content={content.townhomes.textBlock1}/>
     <Textbox content={content.townhomes.textBlock2}/>
     <Textbox content={content.townhomes.textBlock3}/>
