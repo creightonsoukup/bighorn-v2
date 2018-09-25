@@ -1,9 +1,11 @@
 import Layout from '../components/layout'
 import Textbox from '../components/textbox'
 import content from '../static/content'
+import Image from '../components/image'
 
 export default () => (
   <Layout title={'Bighorn Crossing Townhomes'}>
+    <Image border="" image="townhomehero2.jpg" link="townhomes"/>
     <div className='container'>
       <h1 className='row'>Townhomes</h1>
     </div>

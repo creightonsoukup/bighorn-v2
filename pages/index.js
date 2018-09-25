@@ -8,8 +8,11 @@ export default () => (
     <Textbox content={content.homepage.textBlock1}/>
     <Image border="padding" image="townhome-hero.jpg" link="townhomes"/>
     <Textbox content={content.homepage.textBlock2}/>
+    <Image border="padding" image="townhome-hero.jpg" link="townhomes"/>
     <Textbox content={content.homepage.textBlock3}/>
+    <Image border="padding" image="townhome-hero.jpg" link="townhomes"/>
     <Textbox content={content.homepage.textBlock4}/>
+    <Image border="padding" image="townhome-hero.jpg" link="townhomes"/>
     <Textbox content={content.homepage.textBlock5}/>
   </Layout>
 )

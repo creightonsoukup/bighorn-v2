@@ -5,12 +5,10 @@ const Header = (props) => (
   <header>
     <nav className='container'>
       <div className='row'>
-        <div className="four columns">
-          <Link href='/'>
-            <a>Home</a>
-          </Link>
+        <div className="five columns logo">
+          <img src='/static/logo-color.png'/>
         </div>
-        <ul className="eight columns">
+        <ul className="seven columns">
           <li>
             <Link href='/townhomes'>
               <a>Townhomes</a>
@@ -56,6 +54,19 @@ const Header = (props) => (
         flex-direction: row;
         justify-content: space-around;
       }
+      img {
+        max-width: 75px;
+        padding: 10px;
+        height: auto;
+      }
+      nav {
+        min-height: 90px;
+      }
+      .logo {
+        display: flex;
+        justify-content: center;
+      }
+
     `}
     </style>
   </header>
