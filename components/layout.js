@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Header from '../components/header'
 import normalize from '../static/normalize.css'
 import skeleton from '../static/skeleton.css'
+import "../node_modules/slick-carousel/slick/slick.css";
+import "../node_modules/slick-carousel/slick/slick-theme.css";
 
 
 const Layout = ({children, title }) => (
